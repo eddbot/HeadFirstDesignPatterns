@@ -8,7 +8,7 @@ public class ModelDuck : global::Duck
         _flyBehaviour = new FlyNoWay();
     }
 
-    public new void Display()
+    public override void Display()
     {
         Console.WriteLine("I'm a model duck innit");
     }

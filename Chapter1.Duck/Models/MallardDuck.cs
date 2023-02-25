@@ -8,7 +8,7 @@ public class MallardDuck : global::Duck
         _flyBehaviour = new FlyWithWings();
     }
 
-    public new void Display()
+    public override void Display()
     {
        Console.WriteLine($"I'm a real Mallard Duck!"); 
     }

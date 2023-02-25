@@ -43,8 +43,8 @@ public class Duck
         Console.WriteLine($"{this} is swimming!");
     }
 
-    public void Display()
+    public virtual void Display()
     {
     }
-    
+
 }
