@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter1.Duck", "Chapter1.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter1.DesignPuzzle", "Chapter1.DesignPuzzle\Chapter1.DesignPuzzle.csproj", "{DB81FA6D-1923-4732-B44B-A64DDBDF99EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter2.Observer", "Chapter2.Observer\Chapter2.Observer.csproj", "{C8A0818F-0E6E-42C4-9ED1-129878C22B38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{DB81FA6D-1923-4732-B44B-A64DDBDF99EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB81FA6D-1923-4732-B44B-A64DDBDF99EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB81FA6D-1923-4732-B44B-A64DDBDF99EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A0818F-0E6E-42C4-9ED1-129878C22B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A0818F-0E6E-42C4-9ED1-129878C22B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A0818F-0E6E-42C4-9ED1-129878C22B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A0818F-0E6E-42C4-9ED1-129878C22B38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
