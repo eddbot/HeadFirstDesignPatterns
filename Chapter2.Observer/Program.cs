@@ -17,6 +17,16 @@ var config = new ConfigurationBuilder()
 
 for (var i = 0; i < 10; i++)
 {
-    Thread.Sleep(3000);
+    Thread.Sleep(1000);
     await weatherStation.GetWeather();
+    if (i == 4)
+    {
+        weatherStation.RemoveObserver(temperatureDisplay);
+    }
+
+    if (i == 7)
+    {
+        weatherStation.RemoveObserver(conditionsDisplay);
+        weatherStation.AddObserver(temperatureDisplay);
+    }
 }

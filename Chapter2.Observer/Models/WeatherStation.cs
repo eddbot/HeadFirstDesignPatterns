@@ -18,11 +18,13 @@ public class WeatherStation : ISubject
     
     public void AddObserver(IObserver observer)
     {
+        Console.WriteLine($"Adding {observer}");
         _observers.Add(observer);
     }
 
     public void RemoveObserver(IObserver observer)
     {
+        Console.WriteLine($"Removing {observer}");
         _observers.RemoveAll(o => o.GetHashCode() == observer.GetHashCode());
     }
 
