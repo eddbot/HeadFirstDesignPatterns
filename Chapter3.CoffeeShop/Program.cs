@@ -7,12 +7,12 @@ Console.WriteLine(houseBlend.GetDescription());
 
 // Let's make a Double Mocha with Whip!
 // => Dark Roast, Mocha, Mocha, Whip
-Beverage mocha = new DarkRoast();
-mocha.SetSize(Beverage.Size.Venti);
-mocha = new Mocha(mocha);
-mocha = new Mocha(mocha);
-mocha = new Whip(mocha);
-Console.WriteLine(mocha.GetDescription());
-Console.WriteLine(mocha.Cost());
+Beverage darkRoastMocha = new DarkRoast();
+darkRoastMocha.SetSize(Beverage.Size.Grande);
+darkRoastMocha = new Mocha(darkRoastMocha);
+darkRoastMocha = new Mocha(darkRoastMocha);
+darkRoastMocha = new Whip(darkRoastMocha);
+Console.WriteLine(darkRoastMocha.GetDescription());
+Console.WriteLine(darkRoastMocha.Cost());
 
 
