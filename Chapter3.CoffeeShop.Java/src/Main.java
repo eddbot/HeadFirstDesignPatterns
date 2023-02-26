@@ -33,11 +33,5 @@ public class Main {
 
         output = String.format("%s, costs $%s", espresso.getDescription(),df.format(espresso.cost()));
         System.out.println(output);
-
-
-
-
-
-
     }
 }

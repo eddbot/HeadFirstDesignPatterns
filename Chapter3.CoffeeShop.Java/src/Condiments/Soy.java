@@ -10,9 +10,13 @@ public class Soy extends CondimentDecorator{
 
     @Override
     public double cost() {
-        return beverage.cost() + 0.15;
+        Double pricing = switch (beverage.getSize()) {
+            case TALL -> 0.10;
+            case GRANDE -> 0.15;
+            case VENTI -> 0.20;
+        };
+        return beverage.cost() + pricing;
     }
-
     @Override
     public String getDescription() {
         return beverage.getDescription() + ", Soy";
