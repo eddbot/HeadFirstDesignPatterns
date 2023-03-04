@@ -4,6 +4,10 @@ import Interfaces.MallardDuck;
 import Interfaces.Turkey;
 import Interfaces.WildTurkey;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -23,5 +27,13 @@ public class Main {
         // Our turkey now acts like a duck!
         undercoverTurkey.Quack();
         undercoverTurkey.Fly();
+
+        // Bonus - how to read from a file :hehe
+        try {
+            Files.lines(Path.of("src/hello.csv")).forEach(System.out::println);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 }
