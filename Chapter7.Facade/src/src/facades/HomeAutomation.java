@@ -46,7 +46,7 @@ public class HomeAutomation {
         });
     }
 
-    public void off(){
+    public void off() {
         light.off();
         stereo.off();
         thermostat.off();

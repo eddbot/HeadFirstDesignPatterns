@@ -10,7 +10,7 @@ public class Thermostat {
         this.temperature = roomTemperature;
     }
 
-    public void setTemperature(int temperature){
+    public void setTemperature(int temperature) {
         this.temperature = temperature;
     }
 
@@ -18,6 +18,7 @@ public class Thermostat {
         this.isOn = true;
 
     }
+
     public void off() {
         this.isOn = false;
     }
