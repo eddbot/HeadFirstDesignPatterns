@@ -25,8 +25,8 @@ public class Main {
         Duck undercoverTurkey = new DuckAdapter(turkey);
 
         // Our turkey now acts like a duck!
-        undercoverTurkey.Quack();
         undercoverTurkey.Fly();
+        undercoverTurkey.Quack();
 
         // Bonus - how to read from a file :hehe
         try {
