@@ -12,5 +12,5 @@ public class ChildClass extends ParentClass {
         System.out.println("[STEP-2] hello from the vanilla child class");
     }
 
-    // We won't overwrite the hook in this class
+    // We won't override the hook in this class
 }
