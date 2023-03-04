@@ -20,7 +20,7 @@ public class Main {
         // Introduce the adapter
         Duck undercoverTurkey = new DuckAdapter(turkey);
 
-        // Our Turkey now acts like a duck!
+        // Our turkey now acts like a duck!
         undercoverTurkey.Quack();
         undercoverTurkey.Fly();
     }
