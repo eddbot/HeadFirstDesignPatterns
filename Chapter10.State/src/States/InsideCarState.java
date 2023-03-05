@@ -2,7 +2,7 @@ package States;
 
 import ParkingSpace.Car;
 
-public class InsideCarState implements State{
+public class InsideCarState implements State {
 
     private final Car car;
 
@@ -19,7 +19,7 @@ public class InsideCarState implements State{
     @Override
     public void turnKey() {
         System.out.println("you turn on the engine");
-        car.setState(car.engineOnCarState);
+        car.setState(car.getState(Car.states.ENGINE_ON));
     }
 
     @Override
@@ -34,6 +34,5 @@ public class InsideCarState implements State{
 
     @Override
     public void error() {
-
     }
 }

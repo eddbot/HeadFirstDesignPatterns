@@ -2,7 +2,7 @@ package States;
 
 import ParkingSpace.Car;
 
-public class GearSelectedCarState implements State{
+public class GearSelectedCarState implements State {
     private final Car car;
 
     public GearSelectedCarState(Car car) {
@@ -12,7 +12,6 @@ public class GearSelectedCarState implements State{
     @Override
     public void openDoor() {
         System.out.println("you are already in the car!");
-
     }
 
     @Override
@@ -32,6 +31,5 @@ public class GearSelectedCarState implements State{
 
     @Override
     public void error() {
-
     }
 }

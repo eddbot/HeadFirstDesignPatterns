@@ -13,7 +13,7 @@ public class OutsideCarState implements State {
     @Override
     public void openDoor() {
         System.out.println("you open the door to the car");
-        car.setState(car.insideCarState);
+        car.setState(car.getState(Car.states.INSIDE_CAR));
     }
 
     @Override
@@ -34,6 +34,5 @@ public class OutsideCarState implements State {
     @Override
     public void error() {
         System.out.println("you need to get in the car!");
-
     }
 }
