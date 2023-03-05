@@ -2,6 +2,7 @@ import ParkingSpace.Car;
 
 public class Main {
     public static void main(String[] args) {
+
         // This works as all the steps are in order
         Car car = new Car();
         car.getInTheCar(); // you open the door to the car
